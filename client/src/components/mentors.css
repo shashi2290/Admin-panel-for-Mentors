@@ -1,0 +1,30 @@
+.mentor {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid aqua;
+  margin: 20px 10px;
+  align-items: top;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  max-width: 90%;
+  margin-left: 10%;
+  padding: 20px 10px;
+}
+
+.mentorUpdateForm {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+}
+
+.mentorUpdateForm input {
+  border: none;
+}
+
+.mentorUpdateForm input:focus {
+  background-color: cyan;
+  outline: navy;
+}
+
+.mentor:hover {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}

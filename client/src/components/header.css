@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 120px;
+  align-items: center;
+  margin-left: 30px;
+  padding: 20px 10px;
+}
+
+.header button {
+  margin: 10px 20px;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+}
+
+.newMentor input {
+  border: none;
+  padding: 10px 20px;
+  margin: 0 20px;
+}
+
+.newMentor input:focus {
+  outline: none;
+}
+
+.newMentor input:hover {
+  background-color: orangered;
+}
